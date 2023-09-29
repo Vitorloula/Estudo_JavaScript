@@ -48,5 +48,12 @@ frutas.shift(); // remove o primeiro elemento do array -> (maça)
 
 frutas.forEach((fruta) => {
   console.log(fruta);
-}); 
- 
+});
+
+let nomes = ["Antonio", "João", "Maria", "José"];
+
+for (let i = 0; i < nomes.length; i++) {
+  if (nomes[i] == "Antonio") {
+    console.log(nomes[i]);
+  }
+}
