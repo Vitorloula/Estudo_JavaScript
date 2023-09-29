@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Cabeçalhos vai até o h6 -->
+    <h1>Estudo de Javascript</h1>
+    <h2>Index</h2>
+    <!--Paragrafos-->
+    <p>
+      Lorem, ipsum dolor sit <strong> letra em negrito </strong> consectetur
+      adipisicing elit. Nulla, odit.
+    </p>
+    <p>
+      Lorem, ipsum dolor sit <em> letra em italico </em> consectetur adipisicing
+      elit. Nulla, odit.
+    </p>
+
+    <a href="https://www.google.com.br" target="_blank">Google</a>
+
+    <div>
+      <h3>Lista de compras</h3>
+      <ul>
+        <li>Arroz</li>
+        <li>Feijão</li>
+        <li>Macarrão</li>
+        <li>Carne</li>
+      </ul>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Idade</th>
+          <th>Sexo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>João</td>
+          <td>20</td>
+          <td>Masculino</td>
+        </tr>
+        <tr>
+          <td>Maria</td>
+          <td>25</td>
+          <td>Feminino</td>
+        </tr>
+        <tr>
+          <td>Carlos</td>
+          <td>30</td>
+          <td>Masculino</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <form action="form.php" method="post">
+      <div>
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" placeholder="Coloque seu Nome" />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Coloque seu Email" />
+      </div>
+      <div>
+        <label for="sexo">Sexo</label>
+        <select>
+            <option value = "masculino">Masculino</option>
+            <option value = "feminino">Feminino</option>  
+        </select>
+
+      </div>
+        <div>
+            <label for="data">Data de Nascimento</label>
+            <input type="date" />   
+      <div>
+        <label for="senha">Senha</label>
+        <input type="password" value="Confirmar" />
+      </div>
+      <input type="submit" value="Enviar" /> 
+    </form>
+  </body>
+</html>
